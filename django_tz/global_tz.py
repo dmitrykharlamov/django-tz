@@ -21,5 +21,5 @@ def get_timezone():
         return t
 
     from django.conf import settings
-    return utils.coerce_timezone_value(settings.TIME_ZONE).zone
+    return utils.coerce_timezone_value(settings.TIME_ZONE)
 
